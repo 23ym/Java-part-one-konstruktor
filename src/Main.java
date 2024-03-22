@@ -6,5 +6,8 @@ public class Main {
         System.out.println(box.volumeNew());
         BoxNew box2 = new BoxNew(30, 30, 30); // Ctrl + P
         System.out.println(box2.volumeNew());
+
+        Employee employee = new Employee("Петро", "Програміст", 3500);
+        System.out.println(employee.getInfo(12));
     }
 }
