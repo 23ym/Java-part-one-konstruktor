@@ -9,5 +9,8 @@ public class Main {
 
         Employee employee = new Employee("Петро", "Програміст", 3500);
         System.out.println(employee.getInfo(12));
+
+        int result = Test.multiple(5);
+        System.out.println(result);
     }
 }

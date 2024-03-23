@@ -9,6 +9,12 @@ public class Box {
         length = 10;
     }
 
+    Box (double size) {
+        width = size;
+        height = size;
+        length = size;
+    }
+
     void  setDimens(double width, double height, double length) {
         this.width = width;
         this.height = height;
